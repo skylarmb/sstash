@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "serverless offline"
+    "start": "serverless offline --stage dev"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,17 @@
   "bugs": {
     "url": "https://github.com/skylarmb/sstash/issues"
   },
-  "homepage": "https://github.com/skylarmb/sstash#readme"
+  "homepage": "https://github.com/skylarmb/sstash#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0-beta4",
+    "serverless-http": "^1.5.5",
+    "uuid": "^3.2.1",
+    "uuid-validate": "0.0.3"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.24.1",
+    "serverless-plugin-cloudfront-lambda-edge": "2.0.0"
+  }
 }
