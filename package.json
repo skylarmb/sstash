@@ -1,0 +1,27 @@
+{
+  "name": "sstash",
+  "version": "1.0.0",
+  "description": "A public hashtable/datastore running on Lambda@edge backed by MongoDB Atlas",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "serverless offline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylarmb/sstash.git"
+  },
+  "keywords": [
+    "mongodb",
+    "hashtable",
+    "DHT",
+    "lambda",
+    "serverless"
+  ],
+  "author": "skylarmb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skylarmb/sstash/issues"
+  },
+  "homepage": "https://github.com/skylarmb/sstash#readme"
+}
